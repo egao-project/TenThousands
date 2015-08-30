@@ -10,6 +10,9 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var btnStart: UIButton!
+    @IBOutlet weak var btnEnd: UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

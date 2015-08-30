@@ -13,6 +13,7 @@
 		3283B2821B92DA0F00F0F4A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3283B2811B92DA0F00F0F4A3 /* Images.xcassets */; };
 		3283B2851B92DA0F00F0F4A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3283B2831B92DA0F00F0F4A3 /* LaunchScreen.xib */; };
 		3283B2911B92DA0F00F0F4A3 /* TenThousandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283B2901B92DA0F00F0F4A3 /* TenThousandTests.swift */; };
+		3283B29B1B92E33400F0F4A3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283B29A1B92E33400F0F4A3 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3283B28A1B92DA0F00F0F4A3 /* TenThousandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenThousandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3283B28F1B92DA0F00F0F4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3283B2901B92DA0F00F0F4A3 /* TenThousandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenThousandTests.swift; sourceTree = "<group>"; };
+		3283B29A1B92E33400F0F4A3 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				3283B2811B92DA0F00F0F4A3 /* Images.xcassets */,
 				3283B2831B92DA0F00F0F4A3 /* LaunchScreen.xib */,
 				3283B2781B92DA0F00F0F4A3 /* Supporting Files */,
+				3283B29A1B92E33400F0F4A3 /* SettingViewController.swift */,
 			);
 			path = TenThousand;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				3283B27D1B92DA0F00F0F4A3 /* MainViewController.swift in Sources */,
 				3283B27B1B92DA0F00F0F4A3 /* AppDelegate.swift in Sources */,
+				3283B29B1B92E33400F0F4A3 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				3283B2961B92DA0F00F0F4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3283B2971B92DA0F00F0F4A3 /* Build configuration list for PBXNativeTarget "TenThousandTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				3283B2991B92DA0F00F0F4A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
